@@ -75,7 +75,7 @@ export default function Home() {
             return (
               <Link to={`/products/${category.id}`} key={category.id} className="group card overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-card">
                 <div className="relative h-44 w-full overflow-hidden">
-                  <img src={category.image} alt={category.title} className="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+                  <img src={category.image} alt={category.title} className="h-full w-full object-contain transition duration-500 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-gradient-to-t from-ink-950/75 via-ink-950/10 to-transparent" />
                   <span className="absolute left-4 top-4 grid h-10 w-10 place-items-center rounded-xl bg-white/90 text-brand-700 shadow-soft"><Icon className="h-5 w-5" /></span>
                   <span className="absolute bottom-4 left-4 text-xs font-bold uppercase tracking-widest text-gold-300">0{index + 1}</span>
