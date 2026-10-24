@@ -54,8 +54,8 @@ export default function CategoryPage() {
           <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {products.map((p)=>
               <article key={p.id} className="card relative flex flex-col overflow-hidden transition hover:-translate-y-1 hover:border-brand-200">
-                <div className="h-52 w-full shrink-0 overflow-hidden bg-ink-50">
-                  <img src={p.image} alt={`${p.brand} ${p.name}`} className="h-full w-full object-cover transition duration-300 hover:scale-105" />
+                <div className="aspect-[4/3] h-52 w-full shrink-0 overflow-hidden bg-ink-white">
+                  <img src={p.image} alt={`${p.brand} ${p.name}`} className="h-full w-full object-contain transition duration-300 hover:scale-105" />
                 </div>
                 <div className="relative flex flex-1 flex-col p-5">
                   {p.badge && <span className="absolute right-5 top-5 rounded-full bg-gold-100 px-3 py-1 text-[0.65rem] font-bold uppercase tracking-wider text-gold-800">{p.badge}</span>}
