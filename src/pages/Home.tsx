@@ -118,7 +118,7 @@ export default function Home() {
       </section>
 
       <section className="container-page py-20 md:py-28">
-        <div className="text-center"><p className="section-eyebrow justify-center"><span className="h-px w-8 bg-brand-500" /> Why choose us <span className="h-px w-8 bg-brand-500" /></p><h2 className="section-title mt-3">The Avinash difference.</h2><p className="mx-auto mt-4 max-w-2xl text-ink-500">Power equipment is an investment. We make sure you get the right product, the right installation and support long after the sale.</p></div>
+        <div className="text-center"><p className="section-eyebrow justify-center"><span className="h-px w-8 bg-brand-500" /> Why choose us <span className="h-px w-8 bg-brand-500" /></p><h2 className="section-title mt-3">What Sets us Apart.</h2><p className="mx-auto mt-4 max-w-2xl text-ink-500">Power equipment is an investment. We make sure you get the right product, the right installation and support long after the sale.</p></div>
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {[
             { icon: ShieldCheck, title: 'Genuine products', desc: 'Only authorized, warranty-backed products from brands you can trust.' },
