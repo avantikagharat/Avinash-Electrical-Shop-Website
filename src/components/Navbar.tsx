@@ -35,7 +35,7 @@ export default function Navbar() {
           : 'bg-ink-950/80 backdrop-blur'
       }`}
     >
-      {/* top bar */}
+      {/* top bar -- logo  */}
       <div className="hidden border-b border-white/10 bg-ink-950 text-ink-200 md:block">
         <div className="container-page flex h-9 items-center justify-between text-xs">
           <p className="tracking-wide">
@@ -52,9 +52,10 @@ export default function Navbar() {
 
       <nav className="container-page flex h-16 items-center justify-between gap-4">
         <Link to="/" className="flex items-center gap-2.5">
-          <span className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 text-white shadow-soft">
+          {/* <span className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 text-white shadow-soft">
             <Zap className="h-5 w-5" />
-          </span>
+          </span> */}
+          <img src="/logo.png" alt="Avinash Electricals logo" className="h-10 w-10 rounded-full object-cover"/>
           <span className="flex flex-col leading-none">
             <span className="font-display text-lg font-extrabold tracking-wide text-white">
               AVINASH

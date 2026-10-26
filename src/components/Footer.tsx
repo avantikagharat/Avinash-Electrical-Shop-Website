@@ -19,9 +19,10 @@ export default function Footer() {
       <div className="container-page grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-4">
         <div>
           <div className="flex items-center gap-2.5">
-            <span className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 text-white">
+            {/* <span className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 text-white">
               <Zap className="h-5 w-5" />
-            </span>
+            </span> */}
+            <img src="/logo.png" alt="Avinash Electricals logo" className="h-10 w-10 rounded-full object-cover"/>
             <span className="flex flex-col leading-none">
               <span className="font-display text-lg font-extrabold tracking-wide text-white">
                 AVINASH

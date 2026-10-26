@@ -471,13 +471,13 @@ export const services = [
 export const shopInfo = {
   name: 'Avinash Electricals',
   tagline: 'Powering homes & businesses since 1985',
-  phone: '+91 98765 43210',
-  phoneAlt: '+91 98765 12345',
-  email: 'info@avinashelectricals.in',
-  address: 'Shop No. 12, Old Panvel Market, Panvel, Navi Mumbai, Maharashtra 410206',
+  phone: '+91 9820578409',
+  phoneAlt: '+91 7666606566',
+  email: 'avinashelectrical.99@gmail.com',
+  address: 'Arihant Plaza, office no 4, Plot no 162,MCCH Society, Vasudev Balwant Phadke Rd, Old Panvel, Panvel, Maharashtra 410206',
   hours: [
-    { day: 'Mon – Sat', time: '9:30 AM – 8:30 PM' },
-    { day: 'Sunday', time: '10:00 AM – 2:00 PM' },
+    { day: 'Mon – Sat', time: '10.00 AM – 8:30 PM' },
+    { day: 'Sunday', time: 'Closed' },
   ],
-  mapQuery: 'Old Panvel Market, Panvel, Navi Mumbai, Maharashtra 410206',
+  mapQuery: 'Arihant Plaza, office no 4, Plot no 162,MCCH Society, Vasudev Balwant Phadke Rd, Old Panvel, Panvel, Maharashtra 410206',
 };
