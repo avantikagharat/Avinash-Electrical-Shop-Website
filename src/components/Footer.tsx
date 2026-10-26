@@ -53,9 +53,9 @@ export default function Footer() {
 
     <div className="mt-5 flex gap-3">
   {[
-    { Icon: Facebook, label: "Facebook", href: "https://facebook.com/yourpage" },
-    { Icon: Instagram, label: "Instagram", href: "https://instagram.com/yourpage" },
-    { Icon: Youtube, label: "YouTube", href: "https://youtube.com/yourchannel" },
+    // { Icon: Facebook, label: "Facebook", href: "https://facebook.com/yourpage" },
+    // { Icon: Instagram, label: "Instagram", href: "https://instagram.com/yourpage" },
+    // { Icon: Youtube, label: "YouTube", href: "https://youtube.com/yourchannel" },
     { Icon: FaWhatsapp, label: "WhatsApp", href: "https://wa.me/919820578409" },
   ].map(({ Icon, label, href }) => (
     <a
